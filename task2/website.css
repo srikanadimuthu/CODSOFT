@@ -1,0 +1,146 @@
+:root{
+    --orange:rgba(97, 112, 121, 0.87);
+}
+body{ 
+    background-image: url("portfolio/15441979_5625780.jpg");
+    background-size: cover;
+    overflow: hidden;
+    margin: 0%;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.logoimg{
+    color: black;
+    width: 100%;
+    height: 100%;
+}
+a::selection{
+    background-color: rgba(0, 255, 255, 0.274);
+    color: black;
+}
+.head .ele li a:hover{
+    color: rgb(69, 240, 240); 
+}
+.head .ele li{
+    list-style-type: none;
+    display: inline;
+    padding: 20px;
+    font-weight: bolder;
+    font-size: larger;
+    text-transform: uppercase;
+}
+.head .ele li a{ 
+    text-decoration: none;
+    color: rgba(250, 250, 250, 0.979);
+}
+.head{
+     margin-left:40%;
+}
+.header{
+    background-color:var(--orange);
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    height: 60px;
+}
+
+
+.pho{
+   position: absolute;
+   margin-left: 50px;
+   color: antiquewhite;
+}
+.sri{
+    position: absolute;
+    float: left;
+    margin-left: 110px;
+    margin-top: 30px;
+    animation-name: zoom;
+    animation-iteration-count: infinite;
+    animation-duration:15s;
+    animation-timing-function: ease-in-out;
+}
+   
+@keyframes zoom{
+    0%{height:500px; width:400px;}
+    25%{height:470px; width:370px;}
+    50%{height:500px;width:400px;}
+    75%{height:470px; width:370px;}
+    100%{height:500px;width:400px;}    
+}
+.ph{ 
+    position: absolute;
+    margin-right: 60px;
+}
+#but{
+    font-size: x-large;
+    border-style: solid;
+    padding: 15px;
+    background-color:rgba(97, 112, 121, 0.87);
+    border-width: 6px;
+    text-transform: uppercase;
+    border-color:black;
+    border-radius: 10%;
+    color: aliceblue;
+    margin-left:50%;
+    width: 220px;
+}
+#but:hover{ 
+    box-shadow: 6px 7px 5px;
+    color:rgb(17, 17, 17);
+}
+#contact{
+    position: fixed;
+    margin-left: 22%;
+    top:40%;
+    display: none;
+}
+#contact ul li{
+    list-style-type: none;
+    padding: 5px;
+    text-align: center;
+    background-color:  rgba(135, 153, 153, 0.952);
+    color: white;
+    width: 200px;
+}
+#contact ul li:hover{
+    background-color: black;
+}
+#contact ul li a{ 
+    text-decoration: none;
+    color: white;
+}
+.drp{
+    position: relative;
+    margin-top:25%;
+    margin-left:40%;
+    width: 180px;
+}
+.drp:hover #contact{
+    display: block;
+}
+@font-face {
+    font-family:myfont ;
+    src: url("camila.ttf");
+}
+#quo{  
+    position: absolute;
+    font-family:myfont;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-left: 40%;
+    text-shadow: 2px 2px 3px;
+    color: rgb(2, 63, 63);
+
+}
+#sen{
+    position: relative;
+    margin-top: 5%;
+
+}
+
