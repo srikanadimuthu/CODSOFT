@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="decription" content="calculator">
+    <meta name="keywords" content="html,css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <link rel="stylesheet" href="calculator.css">
+   <title>Calulator</title>
+</head>
+<body>
+    <h2><span style="margin-left: 42%;" >CALCULATOR</span></h2>
+   <div class="main">
+        <div id="cas"><span style="color: aliceblue;font-size: 25px;margin-left:20px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;" >casio</span></div>
+        <div class="put">
+         <input id="inp" type="text" >
+        </div>
+         <div class="btn">
+         <input class="clear" type="button" value = 'C' onclick = "blank()">
+         <input class="mul" type="button" value = '*' onclick = "Solve('*')">
+         <input class="slas" type="button" value = '/' onclick ="Solve('/')">
+         <input class="dot" type="button" value = '.' onclick = "Solve('.')">
+         <br>
+         <input class="seven" type="button" value = '7' onclick = "Solve('7')">
+         <input class="eight" type="button" value = '8' onclick = "Solve('8')">
+         <input class="nine" type="button" value = '9' onclick = "Solve('9')">
+         <input class="add" type="button" value = '+' onclick = "Solve('+')">
+         <br>
+         <input class="four" type="button" value = '4' onclick = "Solve('4')">
+         <input class="five" type="button" value = '5' onclick = "Solve('5')">
+         <input class="six" type="button" value = '6' onclick = "Solve('6')">
+         <input class="sub" type="button" value = '-' onclick = "Solve('-')">
+         <br>
+         <input class="one" type="button" value = '1' onclick = "Solve('1')">
+         <input class="two" type="button" value = '2' onclick = "Solve('2')">
+         <input class="three" type="button" value = '3' onclick = "Solve('3')">
+         <input id="equal" type="button" value = '=' onclick = "calculate()">
+         <br>
+         <input id="zero" type="button" value = '0' onclick = "Solve('0')">
+         
+      </div>
+   </div>
+   <script src="calculator.js"></script>
+</body>
+</html>
